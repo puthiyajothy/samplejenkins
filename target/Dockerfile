@@ -1,7 +1,0 @@
-FROM openjdk:latest
-
-ADD dockerspringapp.jar dockerspringapp.jar
-
-EXPOSE 8080
-
-CMD ["java", "-jar", "dockerspringapp.jar"]
